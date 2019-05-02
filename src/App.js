@@ -1,9 +1,10 @@
+import { hot } from 'react-hot-loader/root';
 import React from 'react';
 
 const App = () => (
   <div>
-    Hello world
+    Hello world!
   </div>
 );
 
-export default App;
+export default hot(App)
