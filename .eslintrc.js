@@ -5,6 +5,7 @@ module.exports = {
   rules: {
     indent: 'off',
     '@typescript-eslint/indent': ['error', 2],
-    'react/jsx-uses-vars': 'error'
-  }
-}
+    '@typescript-eslint/explicit-function-return-type': 0,
+    'react/jsx-uses-vars': 'error',
+  },
+};

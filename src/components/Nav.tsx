@@ -11,6 +11,9 @@ const Nav: FunctionComponent<{}> = (): ReactElement => (
       <li>
         <Link to="/contact">Contact</Link>
       </li>
+      <li>
+        <Link to="/counter">Counter</Link>
+      </li>
     </ul>
   </nav>
 );
